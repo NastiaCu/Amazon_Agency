@@ -32,7 +32,7 @@ const PricingCard = styled(Card)(({ theme }) => ({
 const Pricing: React.FC = () => {
   return (
     <Box textAlign="center" my={5}>
-      <Typography variant="h4" color="primary" gutterBottom>
+      <Typography variant="h4" sx={{ color: "#470EEA", fontWeight: 'bold' }} gutterBottom>
         Pricing
       </Typography>
       <Grid container spacing={3}>

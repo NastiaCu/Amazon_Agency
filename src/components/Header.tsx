@@ -4,25 +4,25 @@ import { Link as ScrollLink } from 'react-scroll';
 
 const Header: React.FC = () => {
   return (
-    <AppBar position="fixed" color="default">
+    <AppBar position="fixed" sx={{ borderRadius: '0 0 20px 20px', bgcolor: '#EFEFEF' }}>
       <Toolbar>
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>
+        <Typography variant="h6" sx={{ flexGrow: 1, color: '#470EEA'}}>
           EcomDazzle
         </Typography>
         <ScrollLink to="ourSolution" smooth={true} offset={-64}>
-          <Button color="inherit">Solution</Button>
+          <Button sx={{color: "black"}}>Solution</Button>
         </ScrollLink>
         <ScrollLink to="whyChooseUs" smooth={true} offset={-64}>
-          <Button color="inherit">Why Us?</Button>
+          <Button sx={{color: "black"}}>Why Us?</Button>
         </ScrollLink>
         <ScrollLink to="services" smooth={true} offset={-64}>
-          <Button color="inherit">Services</Button>
+          <Button sx={{color: "black"}}>Services</Button>
         </ScrollLink>
         <ScrollLink to="pricing" smooth={true} offset={-64}>
-          <Button color="inherit">Pricing</Button>
+          <Button sx={{color: "black"}}>Pricing</Button>
         </ScrollLink>
         <ScrollLink to="contact" smooth={true} offset={-64}>
-          <Button color="inherit">Contact</Button>
+          <Button sx={{color: "black"}}>Contact</Button>
         </ScrollLink>
       </Toolbar>
     </AppBar>
