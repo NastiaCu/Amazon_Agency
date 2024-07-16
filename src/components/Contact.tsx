@@ -14,7 +14,7 @@ const ContactCard = styled(Card)(({ theme }) => ({
 const Contact: React.FC = () => {
   return (
     <Box textAlign="center" my={5}>
-      <Typography variant="h4" color="primary" gutterBottom>
+      <Typography variant="h4" gutterBottom sx={{ color: "#470EEA", fontWeight: 'bold' }}>
         Contact Us
       </Typography>
       <Grid container spacing={3}>

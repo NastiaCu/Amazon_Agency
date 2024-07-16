@@ -6,7 +6,7 @@ import WalletIcon from '@mui/icons-material/Wallet';
 const WhyChooseUs: React.FC = () => {
   return (
     <Box sx={{ p: 4, mt: 4 }}>
-      <Typography variant="h4" component="h2" sx={{ mb: 4, textAlign: 'center', fontWeight: 'bold', color: 'blueviolet' }}>
+      <Typography variant="h4" component="h2" sx={{ mb: 4, textAlign: 'center', fontWeight: 'bold', color: '#470EEA' }}>
         Why Choose Our Dynamic New Agency <span style={{ color: 'deeppink' }}>Amid Many Established Competitors?</span>
       </Typography>
       <Grid container spacing={4}>

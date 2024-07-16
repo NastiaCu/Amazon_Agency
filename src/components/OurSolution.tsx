@@ -5,7 +5,7 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 const OurSolution: React.FC = () => {
   return (
     <Box sx={{ p: 4, mt: 4 }}>
-      <Typography variant="h4" component="h2" sx={{ mb: 4, color: 'blueviolet', textAlign: 'center', fontWeight: 'bold' }}>
+      <Typography variant="h4" component="h2" sx={{ mb: 4, color: '#470EEA', textAlign: 'center', fontWeight: 'bold' }}>
         Our Solution
       </Typography>
       <Grid container spacing={4} justifyContent="center" alignItems="center">
